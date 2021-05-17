@@ -48,7 +48,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `lab_4`.`amusement_park` (
   `id` INT NOT NULL,
   `capacity` INT NULL,
-  `adress` VARCHAR(45) NOT NULL,
+  `address` VARCHAR(45) NOT NULL,
   `name` VARCHAR(45) NOT NULL,
   `city_id` INT NOT NULL,
   PRIMARY KEY (`id`),
